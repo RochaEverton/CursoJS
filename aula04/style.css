@@ -1,0 +1,22 @@
+
+body{
+    background-color: #5f5fd1;
+    color: white;
+    font: normal 20pt Arial;
+}
+h1 {
+    color: #f3f312e0;
+    text-align: center;
+}
+h2 {
+    color: #e6e67be0;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+pre {
+    text-align: center;
+}
+h3{
+}
