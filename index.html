@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio da Pelada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sorteio da Pelada</h1>
+    <div id="goleiros">
+        <p>Goleiros</p>
+        <select name="Goleiros" id='gol' size="11">
+            <option value="otacilio">Otacilio</option>
+            <option value="mario">Mario</option>
+            <option value="fabricio">Fabricio</option>
+            <option value="xandy">Xandy</option>
+            <option value="sandro">Sandro</option>
+            <option value="leo">Léo</option>
+            <option value="gudan">Gudanzin</option>
+            <option value="schutz">Schutz</option>
+            <option value="aluguel">Aluguel</option> 
+            <input type="button" value="Adicionar" onclick="addGoleiro()">        
+        </select><br><br>
+    </div>
+    <div id="zagueiros">
+        <p>Zagueiros</p>
+        <select name="zaga" id='zaga' size="11">
+            <option value="denis">Denis</option>
+            <option value="barba">Barba</option>
+            <option value="josefer">Josefer</option>
+            <option value="thiago">Thiago</option>
+            <option value="paulo">Paulo</option>
+            <option value="Xande">Xande</option>  
+            <option value="mario">Mario</option>    
+            <input type="submit" value="Adicionar" onclick="addZagueiro()">  
+        </select><br><br>
+        
+    </div>
+    <div id="meias">
+        <p>Meio</p>
+        <select name="meio" id='meio' size="11">
+            <option value="jonas">Jonas</option>
+            <option value="matheus">Matheus V.</option>
+            <option value="ceta">Ceta</option>
+            <option value="tiago">Tiago Nasc.</option>
+            <option value="joao">João</option>
+            <option value="paulop">Paulo Porto</option>
+            <option value="douglas">Douglas</option>
+            <option value="joarez">Joarez</option>
+            <option value="matheusb">Matheus B.</option>
+            <option value="cabelo">Cabelo</option>
+            <input type="submit" value="Adicionar" onclick="addMeias()">
+        </select><br><br>
+        
+    </div>
+    <div id="atacante">
+        <p>Atacante</p>
+        <select name="ataque" id='ataque' size="11">
+            <option value="xandy">Xandy</option>
+            <option value="diego">Diego</option>
+            <option value="everton">Everton</option>
+            <option value="dhayan">Dhayan</option>
+            <option value="deigov">Diego Vila</option>
+            <option value="rodolfo">Rodolfo</option>  
+            <option value="roosevelt">Roosevelt</option>
+            <input type="submit" value="Adicionar" onclick="addAtaque()">     
+        </select><br><br>
+    </div>
+    <div id="convidado">
+        <p>Convidados</p>
+        <select name="convite" id='convite' size="11">
+            <option value="convidado1">Convidado 1</option>
+            <option value="convidado2">Convidado 2</option>
+            <option value="convidado3">Convidado 3</option>
+            <option value="convidado4">Convidado 4</option>
+            <option value="convidado5">Convidado 5</option>
+            <option value="convidado6">Convidado 6</option>
+            <input type="submit" value="Adicionar" onclick="addConvidado()">
+        </select><br><br>
+    </div>
+        <p>Clique aqui para sortear:  <input type="button" value="SORTEAR AGORA!" id="sortear"></p>
+        <p>Clique aqui para limpar os jogadores selecionados:  <input type="button" value="LIMPAR" id="limpar" onclick="limpar()"></p>
+    <div id="sel">
+
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+div {
+    width: 110px;
+    height: 290px;
+    display:inline-block
+}
+#goleiros {
+    background-color: magenta;
+    padding-left: 10px;
+}
+select#gol{
+    width: 100px;
+    text-align: center;
+}
+
+#zagueiros {
+    background-color: teal;
+    padding-left: 10px;
+}
+select#zaga{
+    width: 100px;
+    text-align: center;
+}
+#meias {
+    background-color: rgb(20, 112, 35);
+    padding-left: 10px;
+}
+select#meio{
+    width: 100px;
+    text-align: center;
+}
+#atacante {
+    background-color: rgb(199, 59, 24);
+    padding-left: 10px;
+}
+select#ataque{
+    width: 100px;
+    text-align: center;
+}
+#convidado {
+    background-color: rgb(177, 137, 28);
+    padding-left: 10px;
+}
+select#convite{
+    width: 100px;
+   
+}
+p{
+   padding-left: 10px;
+}
+input{
+    width: 90px;
+}
+input#sortear{
+    width:200px;
+}
