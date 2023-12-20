@@ -1,11 +1,38 @@
-div {
-    width: 110px;
-    height: 290px;
-    display:inline-block
+body{
+    max-width: 670px; 
+    padding: 0;
+    margin: 0 auto;
+    background-image: url(./logo.jpeg);
+    background-attachment: fixed;
+    background-position: left;
+    background-size: 26%;
+    background-repeat: no-repeat;
+
+
 }
+h1{
+    text-align: center;
+}
+div{
+    display:inline-block;
+}
+div#container{
+    width: 670px;
+    display:inline-block;
+    text-align: center;
+    border: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 #goleiros {
-    background-color: magenta;
-    padding-left: 10px;
+    width: 110px;
+    height: 280px;
+    background-color: magenta; 
+    border-radius: 10px;
+    border-style: solid;
+    margin-right: 10px;
 }
 select#gol{
     width: 100px;
@@ -13,32 +40,48 @@ select#gol{
 }
 
 #zagueiros {
+    width: 110px;
+    height: 280px;
     background-color: teal;
-    padding-left: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-right: 10px;
 }
 select#zaga{
     width: 100px;
     text-align: center;
 }
 #meias {
+    width: 110px;
+    height: 280px;
     background-color: rgb(20, 112, 35);
-    padding-left: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-right: 10px;
 }
 select#meio{
     width: 100px;
     text-align: center;
 }
 #atacante {
+    width: 110px;
+    height: 280px;
     background-color: rgb(199, 59, 24);
-    padding-left: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-right: 10px;
 }
 select#ataque{
     width: 100px;
     text-align: center;
 }
 #convidado {
+    width: 110px;
+    height: 280px;
     background-color: rgb(177, 137, 28);
-    padding-left: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-right: 10px;
 }
 select#convite{
     width: 100px;
@@ -53,3 +96,68 @@ input{
 input#sortear{
     width:200px;
 }
+div#sel{
+    text-align: center;
+    width: 670px;
+    height: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(178, 212, 241);
+}
+div#clean{
+    text-align: center;
+    width: 670px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+div#sorteio{
+    text-align: center;
+    width: 670px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 5px;
+    height: auto;
+
+}
+
+.wrapper > * {
+    background-color: royalblue;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+    
+}
+
+.wrapper > *:nth-child(even) {
+    background-color: rgb(236, 11, 11);
+  }
+/*
+div#inter{
+    font-size: x-large;
+    width: 50%;
+    height: auto;
+    background-color: rgb(23, 53, 190);
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+}
+div#milan{
+    font-size: x-large;
+    width: 50%;
+    height: auto;
+    background-color: rgb(224, 48, 48);
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+}*/
